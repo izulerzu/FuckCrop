@@ -14,8 +14,8 @@
 // @grant         GM_info
 // @grant         GM_xmlhttpRequest
 // @connect       api.twitter.com
-// @updateURL     https://github.com/Bl4Cc4t/Genvara/raw/master/twitter.fuckcrop.user.js
-// @downloadURL   https://github.com/Bl4Cc4t/Genvara/raw/master/twitter.fuckcrop.user.js
+// @updateURL     https://github.com/Genvara/FuckCrop/raw/main/twitter.fuckcrop.user.js
+// @downloadURL   https://github.com/Genvara/FuckCrop/raw/main/twitter.fuckcrop.user.js
 // ==/UserScript==
 
 function getAllElementsWithAttribute(attribute) {
