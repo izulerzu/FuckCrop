@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name          FuckCrop
-// @version       1.deeznuts.0
-// @description   get rid of twitter's dumb crop
+// @name          FuckChirp
+// @version       1.deeznuts.1
+// @description   gets rid of twitter's new font
 // @author        Genvara
 // @license       MIT
 // @match         https://twitter.com/*
@@ -14,9 +14,12 @@
 // @grant         GM_info
 // @grant         GM_xmlhttpRequest
 // @connect       api.twitter.com
-// @updateURL     https://github.com/Genvara/FuckCrop/raw/main/twitter.fuckcrop.user.js
-// @downloadURL   https://github.com/Genvara/FuckCrop/raw/main/twitter.fuckcrop.user.js
+// @updateURL     https://github.com/Bl4Cc4t/Genvara/raw/master/twitter.fuckchirp.user.js
+// @downloadURL   https://github.com/Bl4Cc4t/Genvara/raw/master/twitter.fuckchirp.user.js
 // ==/UserScript==
+
+document.cookie="ab_decider=responsive_web_chirp_font_enabled=false"
+document.cookie="ab_decider=responsive_web_chirp_font_enabled=false&responsive_web_nav_visual_refresh_enabled=false"
 
 function getAllElementsWithAttribute(attribute) {
     var matchingElements = [];
