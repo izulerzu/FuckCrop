@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          FuckChirp
 // @version       1.deeznuts.1
-// @description   gets rid of twitter's new font
+// @description   gets rid of twitter's dumb crop
 // @author        Genvara
 // @license       MIT
 // @match         https://twitter.com/*
