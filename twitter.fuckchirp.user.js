@@ -18,9 +18,6 @@
 // @downloadURL   https://github.com/Bl4Cc4t/Genvara/raw/master/twitter.fuckchirp.user.js
 // ==/UserScript==
 
-document.cookie="ab_decider=responsive_web_chirp_font_enabled=false"
-document.cookie="ab_decider=responsive_web_chirp_font_enabled=false&responsive_web_nav_visual_refresh_enabled=false"
-
 function getAllElementsWithAttribute(attribute) {
     var matchingElements = [];
     var allElements = document.getElementsByTagName('*');
